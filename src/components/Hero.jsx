@@ -13,25 +13,24 @@ const Hero = () => {
             className='w-[32px] h-[32px]'
           />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>20%</span> Discount For {" "}
-            <span className='text-white'>1 Month</span> Account
+            <span className='text-white'>Most Popular</span>Gaming {" "}
+            <span className='text-white'>Crypto</span> Currency
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
-            The Next <br className='sm:block hidden'/> {" "}
-            <span className='text-gradient'>Generation</span> {" "}
+            Welcome to <br className='sm:block hidden'/> {" "}
+            <span className='text-gradient'>Gameum</span> {" "}
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted/>
           </div>
         </div>
         <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
-          Payment Method.
+          Ecosystem.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
-        We examine annual percentage rates, annual fees.  
+        We are a team to one of the fastest-growing communities at the intersection of variety gaming, e-sports, and Blockchain.  
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
