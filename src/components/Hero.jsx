@@ -13,7 +13,7 @@ const Hero = () => {
             className='w-[32px] h-[32px]'
           />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>Most Popular</span>Gaming {" "}
+            <span className='text-white'>Most Popular</span> Gaming {" "}
             <span className='text-white'>Crypto</span> Currency
           </p>
         </div>
