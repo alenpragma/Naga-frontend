@@ -13,14 +13,14 @@ const Hero = () => {
             className='w-[32px] h-[32px]'
           />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>Most Popular</span> Gaming {" "}
-            <span className='text-white'>Crypto</span> Currency
+            <span className='text-white'>Best Forex and </span> Crypto {" "}
+            <span className='text-white'>Portfolio</span> Management Company
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
             Welcome to <br className='sm:block hidden'/> {" "}
-            <span className='text-gradient'>Gameum</span> {" "}
+            <span className='text-gradient'>Nagatrade</span> {" "}
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted/>
@@ -30,7 +30,7 @@ const Hero = () => {
           Ecosystem.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        We are a team to one of the fastest-growing communities at the intersection of variety gaming, e-sports, and Blockchain.  
+        NagaTrade provides highly liquid, secure, decentralized investments and trading platforms along with investment programs to increase clients’ net worth and profits.  
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
