@@ -6,10 +6,10 @@ import styles from '../style'
 const Package = () => {
     return (
         <section className='my-20'>
-            <div className='text-center'>
-                <h2 className={styles.heading2}>Our Business Package</h2>
-                <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                CHOOSE ONE TO GET DAILY PROFIT
+            <div className='flex-1 flex flex-col'>
+                <h2 className={styles.heading3}>Let's try our service now!</h2>
+                <p className={`${styles.paragraph3} mt-5`}>
+                    Everything you need to accept card payments and grow your business anywhere on the planet.
                 </p>
             </div>
             <div className='grid lg:grid-cols-3 gap-5 my-10'>
