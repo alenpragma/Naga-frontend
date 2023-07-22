@@ -38,23 +38,44 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Royalty Bonus",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Royalties refer to a bonus whereby the recipient receives a certain portion of the profit as additional income.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Referral Program",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "This referral program was created as part of the NagaTrade project to attract attention to the project.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Club Bonus",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Earn Club Bonus Valuable Rewards! Get Early Access and Special Offers! Enjoy Special Events and Adventures!",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Daily Revenue",
+    content:
+      "A metric in the investors that measures the no. of trades per day that the investors generate Daily income.",
+  },
+  {
+    id: "feature-5",
+    icon: send,
+    title: "Pair Bonus",
+    content:
+      "Pairs bonus You can create as many joins as you want, each pair of joined fields must be of the compatible data type.",
+  },
+  {
+    id: "feature-6",
+    icon: send,
+    title: "Rank Bonus",
+    content:
+      "The purpose of a rank bonus is to award distributors who target their points to get to a rank.",
   },
 ];
 
@@ -210,3 +231,60 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const packageFeature = [
+  {
+    id: "package-01",
+    package_name: "Basic Package",
+    price: "100",
+    img: star,
+    daily_return: "0.16",
+    total_return: "450",
+    charge: "No Extra Charge"
+  },
+  {
+    id: "package-02",
+    package_name: "Standard Package",
+    price: "300",
+    img: star,
+    daily_return: "0.48",
+    total_return: "450",
+    charge: "No Extra Charge"
+  },
+  {
+    id: "package-03",
+    package_name: "Premium Package",
+    price: "500",
+    img: star,
+    daily_return: "0.80",
+    total_return: "450",
+    charge: "No Extra Charge"
+  },
+  {
+    id: "package-04",
+    package_name: "Business Package",
+    price: "1000",
+    img: star,
+    daily_return: "1.60",
+    total_return: "450",
+    charge: "No Extra Charge"
+  },
+  {
+    id: "package-05",
+    package_name: "Professional Package",
+    price: "1500",
+    img: star,
+    daily_return: "2.40",
+    total_return: "450",
+    charge: "No Extra Charge"
+  },
+  {
+    id: "package-05",
+    package_name: "Royal Package",
+    price: "3000",
+    img: star,
+    daily_return: "4.80",
+    total_return: "450",
+    charge: "No Extra Charge"
+  },
+]
