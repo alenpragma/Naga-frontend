@@ -4,14 +4,12 @@ import {
   people03,
   facebook,
   instagram,
-  linkedin,
   twitter,
   airbnb,
   binance,
   coinbase,
   dropbox,
   send,
-  shield,
   star,
   katsu,
   tsumugi,
@@ -50,7 +48,7 @@ export const features = [
   },
   {
     id: "feature-2",
-    icon: ,
+    icon: star,
     title: "Referral Program",
     content:
       "This referral program was created as part of the NagaTrade project to attract attention to the project.",
@@ -214,7 +212,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-4",
-    icon: linkedin,
+    icon: twitter,
     link: "https://www.linkedin.com/",
   },
 ];

@@ -14,7 +14,7 @@ const Expert = () => {
             </div>
             <div className='grid lg:grid-cols-5 gap-3 my-10'>
                 {
-                    expert.map(data => <div className="card glass text-white expert-card shadow-sm shadow-gray-800" key={data.id}>
+                    expert.map(data => <div className="card glass text-white expert-card shadow-lg shadow-gray-800" key={data.id}>
                         <figure><img className='w-full' src={data.img} alt="" /></figure>
                         <div className="card-body text-center my-5">
                             <h2 className={styles.expertName}>{data.name}</h2>
