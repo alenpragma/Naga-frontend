@@ -28,7 +28,7 @@ const Package = () => {
                                     <p>Total Return {data.total_return} Days</p>
                                     <p>{data.charge}</p>
                                     {/* <Button styles='mt-10 w-full' /> */}
-                                    <button type='button' className={`py-4 px-6 font-poppins font-medium text-[18px] text-slate-300 outline-none ${styles} rounded-[10px] w-full button-style`}>
+                                    <button type='button' className={`py-4 px-6 font-poppins font-medium text-[18px] text-slate-500 outline-none ${styles} rounded-[10px] w-full button-style`}>
                                         <a href="https://www.facebook.com/">View Package</a>
                                     </button>
                                 </div>
