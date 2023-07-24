@@ -16,6 +16,12 @@ import {
   susumu,
   reiko,
   yuusei,
+  packageOne,
+  packageTwo,
+  packageThree,
+  packageFour,
+  packageFive,
+  packageSix,
 
 } from "../assets";
 
@@ -35,6 +41,10 @@ export const navLinks = [
   {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "package",
+    title: "Package",
   },
 ];
 
@@ -241,7 +251,7 @@ export const packageFeature = [
     id: "package-01",
     package_name: "Basic Package",
     price: "100",
-    img: star,
+    img: packageOne,
     daily_return: "0.16",
     total_return: "450",
     charge: "No Extra Charge"
@@ -250,7 +260,7 @@ export const packageFeature = [
     id: "package-02",
     package_name: "Standard Package",
     price: "300",
-    img: star,
+    img: packageTwo,
     daily_return: "0.48",
     total_return: "450",
     charge: "No Extra Charge"
@@ -259,7 +269,7 @@ export const packageFeature = [
     id: "package-03",
     package_name: "Premium Package",
     price: "500",
-    img: star,
+    img: packageThree,
     daily_return: "0.80",
     total_return: "450",
     charge: "No Extra Charge"
@@ -268,7 +278,7 @@ export const packageFeature = [
     id: "package-04",
     package_name: "Business Package",
     price: "1000",
-    img: star,
+    img: packageFour,
     daily_return: "1.60",
     total_return: "450",
     charge: "No Extra Charge"
@@ -277,7 +287,7 @@ export const packageFeature = [
     id: "package-05",
     package_name: "Professional Package",
     price: "1500",
-    img: star,
+    img: packageFive,
     daily_return: "2.40",
     total_return: "450",
     charge: "No Extra Charge"
@@ -286,7 +296,7 @@ export const packageFeature = [
     id: "package-05",
     package_name: "Royal Package",
     price: "3000",
-    img: star,
+    img: packageSix,
     daily_return: "4.80",
     total_return: "450",
     charge: "No Extra Charge"

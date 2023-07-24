@@ -16,11 +16,11 @@ const Billing = () => {
       </div>
       <div className={layout.sectionInfo}>
         <h2 className={styles.title}>About cryptoads</h2>
-        <h2 className={styles.heading2}>Best Cryptocurrency Advertising and PR Agency</h2>
+        <h2 className={`${styles.heading2} ss:leading-[60px]`}>Best Cryptocurrency Advertising and PR Agency</h2>
         <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
           CryptoAds (CADS) is a vast ecosystem of interconnected Web 3.0 blockchain solutions created with a clear mission: to introduce millions of people to the world of cryptocurrencies by making crypto as accessible and easy-to-use as possible. By doing that, CryptoAds (CADS) is aiming to greatly accelerate global blockchain adoption, and make blockchain and crypto as popular and as common as mainstream social media platforms.
         </p>
-        <div className='flex flex-row flex-wrap sm:mt-10 mt-6 gap-10'>
+        <div className='flex flex-row flex-wrap sm:mt-5 mt-3 gap-10'>
           {/* <img
             src={apple}
             alt='app-store'

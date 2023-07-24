@@ -9,7 +9,7 @@ import quotes from "./quotes.svg";
 import robot from "./pic-robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
-import star from "./level-1-01.png";
+import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -27,6 +27,12 @@ import tsumugi from "./tsumugi.jpg";
 import susumu from "./susumu.png";
 import reiko from "./reiko.png";
 import yuusei from "./yuusei.png";
+import packageOne from "./basic.png";
+import packageTwo from "./standard.png";
+import packageThree from "./premium.png";
+import packageFour from "./business.png";
+import packageFive from "./professional.png";
+import packageSix from "./royel.png";
 
 export {
   airbnb,
@@ -57,5 +63,11 @@ export {
   tsumugi,
   susumu,
   reiko,
-  yuusei
+  yuusei,
+  packageOne,
+  packageTwo,
+  packageThree,
+  packageFour,
+  packageFive,
+  packageSix
 };
