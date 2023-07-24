@@ -1,18 +1,24 @@
-import { 
-  people01, 
-  people02, 
-  people03, 
-  facebook, 
-  instagram, 
-  linkedin, 
-  twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
-  send, 
-  shield, 
-  star
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  katsu,
+  tsumugi,
+  susumu,
+  reiko,
+  yuusei,
+
 } from "../assets";
 
 export const navLinks = [
@@ -44,7 +50,7 @@ export const features = [
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: ,
     title: "Referral Program",
     content:
       "This referral program was created as part of the NagaTrade project to attract attention to the project.",
@@ -286,5 +292,43 @@ export const packageFeature = [
     daily_return: "4.80",
     total_return: "450",
     charge: "No Extra Charge"
+  },
+]
+
+export const expert = [
+  {
+    id: "expert-1",
+    name: "Katsu",
+    img: katsu,
+    title: "cto, nagatrade",
+    descipttion: "It’s not how much money you make, but how much money you keep, how hard it works for you, and how many generations you keep it for."
+  },
+  {
+    id: "expert-2",
+    name: "Tsumugi",
+    img: tsumugi,
+    title: "Legal Advisor",
+    descipttion: "Wide diversification is only required when investors do not understand what they are doing."
+  },
+  {
+    id: "expert-3",
+    name: "Susumu",
+    img: susumu,
+    title: "Coo, Nagatrade",
+    descipttion: "The individual investor should act consistently as an investor and not as a speculator."
+  },
+  {
+    id: "expert-4",
+    name: "Reiko",
+    img: reiko,
+    title: "Legal Advisor",
+    descipttion: "Great investors need to have the right combination of intuition, business sense, and investment talent."
+  },
+  {
+    id: "expert-4",
+    name: "Yuusei",
+    img: yuusei,
+    title: "Legal Advisor",
+    descipttion: "Without investment, there will not be growth, and without growth, there will not be employment."
   },
 ]

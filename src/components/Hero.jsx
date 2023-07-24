@@ -17,13 +17,13 @@ const Hero = () => {
             <span className='text-white'>Portfolio</span> Management Company
           </p>
         </div> */}
-        <div className='flex flex-row justify-between items-center w-full'>
+        <div className='flex flex-row justify-between items-center w-full mt-0'>
           {/* <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
             Welcome to <br className='sm:block hidden'/> {" "}
             <span className='text-gradient'>Nagatrade</span> {" "}
           </h1> */}
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
-            <span>Nagatrade</span> {" "}
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[60px] leading-[75px]'>
+            <span>Best Forex and Crypto Portfolio Management Company</span> {" "}
           </h1>
           {/* <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted />
@@ -33,7 +33,7 @@ const Hero = () => {
         {/* <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
           Ecosystem.
         </h1> */}
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-10`}>
           We Present a NagaTrade invesment service that offers a high degree of privacy and is responsible for their secruity and the secruity of your invesment
         </p>
       </div>

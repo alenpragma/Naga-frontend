@@ -2,7 +2,7 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
+  paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] items-center",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -16,6 +16,10 @@ const styles = {
 
   heading3: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center",
   paragraph3: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] text-center",
+
+  title: "font-poppins font-semibold xs:text-[24px] text-[24px] text-white uppercase",
+
+  expertName: "text-[18px] font-bold uppercase"
 }
 
 export const layout = {

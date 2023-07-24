@@ -142,3 +142,10 @@
 .package-card:hover{
   background: var(--black-gradient);
 }
+
+/* .expert-card{
+  background: var(--black-gradient);
+} */
+.expert-card:hover{
+  background: var(--black-gradient);
+}
