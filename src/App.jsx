@@ -35,7 +35,7 @@ const App = () => {
           <Stats />
           <Business />
           <Billing />
-          {/* <Token /> */}
+          <Token />
           <CardDeal />
           <Testimonials />
           <Clients />

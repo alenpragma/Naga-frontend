@@ -145,3 +145,10 @@
   background: #36363E;
   transition: background 0.5s;
 }
+
+.token-item{
+  margin-top: 50px;
+}
+.margin-right{
+  margin-right: 60px;
+}
