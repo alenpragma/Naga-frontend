@@ -135,7 +135,7 @@
   transition: background 0.1s;
 }
 
-.card-style:hover .button-style{
+.card-style:hover .button-style {
   color: #11101d;
   background: #3FC7D6;
   transition: background 1s;
@@ -146,9 +146,19 @@
   transition: background 0.5s;
 }
 
-.token-item{
+.token-item {
   margin-top: 50px;
 }
-.margin-right{
+
+.margin-right {
   margin-right: 60px;
+}
+
+.white-img {
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.expert-style:hover .white-img {
+  filter: grayscale(0%);
 }

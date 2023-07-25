@@ -38,7 +38,7 @@ const App = () => {
           <Token />
           <CardDeal />
           <Testimonials />
-          <Clients />
+          {/* <Clients /> */}
           <CTA />
           <Package />
           <Expert />
