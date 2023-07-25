@@ -41,6 +41,18 @@ import dailyRevenue from './DailyRevenue.png';
 import pairBonush from './PairBonus.png';
 import rankBonush from './RankBonus.png';
 
+// token image 
+import tokenOne from "./token/coin-discover.png"
+import tokenTwo from "./token/coin-ranking.png"
+import tokenThree from "./token/coinmooner.png"
+import tokenFour from "./token/coinsniper.png"
+import tokenFive from "./token/My-project-2.png"
+import tokenSix from "./token/My-project-3.png"
+import tokenSeven from "./token/My-project-4.png"
+import tokenEight from "./token/My-project-5.png"
+import tokenNine from "./token/My-project-7-150x150.png"
+import tokenTen from "./token/My-project.png"
+
 export {
   airbnb,
   bill,
@@ -83,4 +95,14 @@ export {
   dailyRevenue,
   pairBonush,
   rankBonush,
+  tokenOne,
+  tokenTwo,
+  tokenThree,
+  tokenFour,
+  tokenFive,
+  tokenSix,
+  tokenSeven,
+  tokenEight,
+  tokenNine,
+  tokenTen
 };

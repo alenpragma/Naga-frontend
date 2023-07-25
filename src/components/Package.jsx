@@ -1,15 +1,10 @@
 import React from 'react'
 import { packageFeature } from '../constants'
-import Button from './Button'
 import styles from '../style'
-import { Helmet } from 'react-helmet-async'
 
 const Package = () => {
     return (
         <section id='package' className='my-20'>
-            <Helmet>
-                <title>Nagatrade | Package</title>
-            </Helmet>
             <div className='flex-1 flex flex-col'>
                 <h2 className={styles.heading3}>Let's try our service now!</h2>
                 <p className={`${styles.paragraph3} mt-5`}>

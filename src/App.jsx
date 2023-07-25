@@ -14,6 +14,7 @@ import {
 } from './components'
 import styles from './style'
 import Expert from './components/Expert'
+import Token from './components/Token'
 
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
           <Stats />
           <Business />
           <Billing />
+          {/* <Token /> */}
           <CardDeal />
           <Testimonials />
           <Clients />
