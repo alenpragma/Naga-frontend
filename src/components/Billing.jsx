@@ -1,10 +1,14 @@
 import React from 'react'
 import { apple, bill, google } from '../assets'
 import styles, { layout } from '../style'
+import { Helmet } from 'react-helmet-async'
 
 const Billing = () => {
   return (
     <section id='product' className={layout.sectionReverse}>
+      <Helmet>
+        <title>Nagatrade | Billing</title>
+      </Helmet>
       <div className={layout.sectionImgReverse}>
         <img
           src={bill}

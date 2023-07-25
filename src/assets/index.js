@@ -1,5 +1,5 @@
 import airbnb from "./airbnb.png";
-import bill from "./cads-arrow-post.png";
+import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./Pay-Method-01.png";
 import coinbase from "./coinbase.png";
@@ -33,6 +33,13 @@ import packageThree from "./premium.png";
 import packageFour from "./business.png";
 import packageFive from "./professional.png";
 import packageSix from "./royel.png";
+
+import royelity from './RoyaltyBonus.png';
+import reffaral from './ReferralProgram.png';
+import clubBonush from './clubbonush.png';
+import dailyRevenue from './DailyRevenue.png';
+import pairBonush from './PairBonus.png';
+import rankBonush from './RankBonus.png';
 
 export {
   airbnb,
@@ -69,5 +76,11 @@ export {
   packageThree,
   packageFour,
   packageFive,
-  packageSix
+  packageSix,
+  royelity,
+  reffaral,
+  clubBonush,
+  dailyRevenue,
+  pairBonush,
+  rankBonush,
 };

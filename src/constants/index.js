@@ -9,8 +9,6 @@ import {
   binance,
   coinbase,
   dropbox,
-  send,
-  star,
   katsu,
   tsumugi,
   susumu,
@@ -22,6 +20,12 @@ import {
   packageFour,
   packageFive,
   packageSix,
+  royelity,
+  reffaral,
+  clubBonush,
+  dailyRevenue,
+  pairBonush,
+  rankBonush,
 
 } from "../assets";
 
@@ -51,42 +55,42 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: royelity,
     title: "Royalty Bonus",
     content:
       "Royalties refer to a bonus whereby the recipient receives a certain portion of the profit as additional income.",
   },
   {
     id: "feature-2",
-    icon: star,
+    icon: reffaral,
     title: "Referral Program",
     content:
       "This referral program was created as part of the NagaTrade project to attract attention to the project.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: clubBonush,
     title: "Club Bonus",
     content:
       "Earn Club Bonus Valuable Rewards! Get Early Access and Special Offers! Enjoy Special Events and Adventures!",
   },
   {
     id: "feature-4",
-    icon: send,
+    icon: dailyRevenue,
     title: "Daily Revenue",
     content:
       "A metric in the investors that measures the no. of trades per day that the investors generate Daily income.",
   },
   {
     id: "feature-5",
-    icon: send,
+    icon: pairBonush,
     title: "Pair Bonus",
     content:
       "Pairs bonus You can create as many joins as you want, each pair of joined fields must be of the compatible data type.",
   },
   {
     id: "feature-6",
-    icon: send,
+    icon: rankBonush,
     title: "Rank Bonus",
     content:
       "The purpose of a rank bonus is to award distributors who target their points to get to a rank.",
