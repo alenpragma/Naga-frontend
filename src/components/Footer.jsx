@@ -11,7 +11,7 @@ const Footer = () => {
           <img
             src={logo}
             alt='logo'
-            className='w-[266px] h-[172px] object-contain'
+            className='w-[266px] object-contain'
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
             We are a team to one of the fastest-growing communities at the intersection of variety gaming, e-sports, and Blockchain.         
