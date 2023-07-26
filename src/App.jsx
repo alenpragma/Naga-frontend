@@ -3,7 +3,6 @@ import {
   Billing,
   Business,
   CardDeal,
-  Clients,
   CTA,
   Footer,
   Hero,
@@ -39,7 +38,6 @@ const App = () => {
           <Token />
           <CardDeal />
           <Testimonials />
-          {/* <Clients /> */}
           <CTA />
           <Package />
           <Expert />
