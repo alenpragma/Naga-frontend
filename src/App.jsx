@@ -15,6 +15,7 @@ import {
 import styles from './style'
 import Expert from './components/Expert'
 import Token from './components/Token'
+import Faq from './components/Faq'
 
 
 const App = () => {
@@ -42,6 +43,7 @@ const App = () => {
           <CTA />
           <Package />
           <Expert />
+          <Faq />
           <Footer />
         </div>
       </div>

@@ -208,11 +208,6 @@ export const socialMedia = [
     icon: twitter,
     link: "https://www.twitter.com/",
   },
-  {
-    id: "social-media-4",
-    icon: twitter,
-    link: "https://www.linkedin.com/",
-  },
 ];
 
 export const clients = [
