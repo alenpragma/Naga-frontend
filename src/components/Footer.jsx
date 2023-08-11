@@ -43,7 +43,7 @@ const Footer = () => {
         </p>
         <div className='flex flex-row md:mt-0 mt-6'>
           {socialMedia.map((social, index) => (
-            <a href={social.link}>
+            <a target='_black' href={social.link}>
               <img
                 src={social.icon}
                 key={social.id}
