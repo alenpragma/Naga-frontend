@@ -14,7 +14,7 @@ const CardDeal = () => {
           Aliquet quis aliquet eget mauris tortor.ç
           Aliquet ultrices ac, ametau.
         </p>
-        <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]`}>
+        <button type='button' className="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px] mt-5">
           Get Started
         </button>
       </div>

@@ -32,7 +32,7 @@ const Billing = () => {
             className='w-[128px] h-[42px] object-contain cursor-pointer'
           /> */}
           <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]`}>
-            <a href="https://www.cryptoads.work/" target="_blank">Lern More</a>
+            <a href="https://www.cryptoads.work/" target="_blank">Learn More</a>
           </button>
         </div>
       </div>
