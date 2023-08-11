@@ -17,6 +17,7 @@ import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
+import youtube from "./youtube.svg";
 import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
@@ -73,6 +74,7 @@ export {
   arrowUp,
   discount,
   facebook,
+  youtube,
   instagram,
   twitter,
   people01,

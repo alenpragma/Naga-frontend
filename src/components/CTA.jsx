@@ -12,7 +12,9 @@ const CTA = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0`}>
-        <Button/>
+      <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]`}>
+          Get Started
+        </button>
       </div>
     </section>
   )

@@ -2,29 +2,8 @@ import React, { useState } from 'react';
 import { BiSolidUpArrow, BiSolidDownArrow } from "react-icons/bi";
 import styles from '../style';
 import { FaBitcoin } from "react-icons/fa";
+import { accordionData } from '../constants';
 
-const accordionData = [
-    {
-        title: "What is NagaTrade's Mission?",
-        content: "NagaTrade Mission is to facilitate investors’ access to sustainable profits with the most advanced investment tools and dynamic techniques."
-    },
-    {
-        title: "How many package are there in Nagatrade?",
-        content: "Here are six package types at NagaTrade."
-    },
-    {
-        title: "How many bonuses are there in Nagatrade Package?",
-        content: "Here are six types of bonuses in the NagaTrade package."
-    },
-    {
-        title: "How many Projects are there in Nagatrade Projects?",
-        content: "Here are Eight Projects in NagaTrade – 1. Naga Hospital, 2. Naga Real Estate, 3. Naga Car Factory 4. Naga Agricultural Farm, 5. Naga Crypto and Forex, 6. Naga Hotel and Restaurant, 7. Naga Technologies, 8. Naga Trading [Export/Import] You can contribute to us for upcoming projects."
-    },
-    {
-        title: "Do you any partnership with any crypto?",
-        content: "NagaTrade has a partnership with a crypto company called CryptoAds Token (CADS)."
-    },
-];
 
 const Faq = () => {
 
