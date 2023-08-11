@@ -21,10 +21,10 @@ const Navbar = () => {
           </li>
         ))}
         <li className='font-poppins font-normal cursor-pointer text-[16px] text-white mr-8'>
-          <a href="https://my.nagatrade.info/login?_ga=2.122996226.846724718.1691733495-1123424949.1689999412&_gl=1*dcx1ru*_ga*MTEyMzQyNDk0OS4xNjg5OTk5NDEy*_ga_NDS0GXZLWB*MTY5MTczMzQ5NS4xNC4xLjE2OTE3MzQ1MDQuMC4wLjA.*_ga_36F2K585WP*MTY5MTczMzQ5NS4xNC4xLjE2OTE3MzQ1MDQuMC4wLjA.">Login</a>
+          <a href="https://my.nagatrade.info/login">Login</a>
         </li>
         <li className='font-poppins font-normal cursor-pointer text-[16px] text-white'>
-          <a href="https://my.nagatrade.info/register?_ga=2.136634681.846724718.1691733495-1123424949.1689999412&_gl=1*gfx6m6*_ga*MTEyMzQyNDk0OS4xNjg5OTk5NDEy*_ga_NDS0GXZLWB*MTY5MTczMzQ5NS4xNC4xLjE2OTE3MzQ1MDQuMC4wLjA.*_ga_36F2K585WP*MTY5MTczMzQ5NS4xNC4xLjE2OTE3MzQ1MDQuMC4wLjA.">Register</a>
+          <a href="https://my.nagatrade.info/register">Register</a>
         </li>
       </ul>
       <div className='sm:hidden flex flex-1 justify-end items-center'>

@@ -27,7 +27,7 @@ const Token = () => {
     return (
         <section className='my-20'>
             <div className='flex-1 flex flex-col'>
-                <h2 className={styles.heading3}>Buy Cad's Token</h2>
+                <h2 className={styles.heading3}>Buy <span className="uppercase">Cads</span> Token</h2>
                 <p className={`${styles.paragraph3} mt-5`}>
                     BUY ON DECENTRALIZED EXCHANGE
                 </p>

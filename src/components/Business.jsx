@@ -33,8 +33,8 @@ const Business = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Our mission is to facilitate investors to achieve sustainable profits through the most advanced investment tools and dynamic strategies. We are committed to achieving maximum returns for investors.
         </p>
-        <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]`}>
-          <a href="https://my.nagatrade.info/register?_ga=2.168619688.846724718.1691733495-1123424949.1689999412&_gl=1*9fyafx*_ga*MTEyMzQyNDk0OS4xNjg5OTk5NDEy*_ga_NDS0GXZLWB*MTY5MTczMzQ5NS4xNC4xLjE2OTE3MzQ1MDQuMC4wLjA.*_ga_36F2K585WP*MTY5MTczMzQ5NS4xNC4xLjE2OTE3MzQ1MDQuMC4wLjA." target="_blank">Get Started</a>
+        <button type='button' className="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px] mt-5">
+          <a href="https://my.nagatrade.info/register" target="_blank">Get Started</a>
         </button>
 
       </div>
