@@ -17,7 +17,7 @@ const Footer = () => {
             We are a team to one of the fastest-growing communities at the intersection of variety gaming, e-sports, and Blockchain.
           </p>
         </div>
-        <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
+        <div className='flex-[1.5] w-full lg:flex flex-row lg:justify-around justify-start flex-wrap md:mt-0 mt-10'>
           {footerLinks.map((link) => (
             <div key={link.title} className='flex flex-col ss:my-0 my-4 min-w-[150px]'>
               <h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>
@@ -35,6 +35,14 @@ const Footer = () => {
               </ul>
             </div>
           ))}
+        </div>
+        <div className='flex-1 flex flex-col justify-start mr-10'>
+          <h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>
+            Address
+          </h4>
+          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
+          〒982-0262, Seikaen, Sendaishiaobaku, MIYAGI, JAPAN, Seikaen, Miyagi, Japan
+          </p>
         </div>
       </div>
       <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>
