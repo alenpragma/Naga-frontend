@@ -1,5 +1,5 @@
 import { aboutUs } from "../assets";
-import { ourProjectData } from "../constants";
+import { features, ourProjectData } from "../constants";
 import styles from "../style";
 
 
@@ -43,6 +43,34 @@ const About = () => {
                                 <h2 className="card-title text-black">{data.title}</h2>
                                 <p className="text-black">{data.description}</p>
                             </div>
+                        </div>)
+                    }
+                </div>
+            </div>
+            <div>
+                <div className='flex-1 flex flex-col'>
+                    <h2 className={styles.heading3}>Why Choose Us</h2>
+                    <p className={`${styles.paragraph3} mt-5`}>
+                        Check On Our Project
+                    </p>
+                </div>
+
+                <div className="lg:grid grid-cols-3 gap-10">
+                    {
+                        features.map(data => <div className="rounded-md h-auto shadow-xl lg:mt-0 mt-5" key={data.id}>
+                            <div className="relative">
+                                <div className="flex rounded-t-md justify-center items-center h-[100px] bg-red-300">
+
+                                </div>
+                                <div className="card-body rounded-b-md h-[200px] bg-green-300 py-20">
+                                    <h2 className="card-title text-black">{data.title}</h2>
+                                    <p className="text-black">{data.content}</p>
+                                </div>
+                                <div className="top-10 left-[160px] absolute">
+                                    <img className="w-28 p-3 border-4 border-white rounded-full bg-white" src={data.icon} alt="" />
+                                </div>
+                            </div>
+
                         </div>)
                     }
                 </div>
