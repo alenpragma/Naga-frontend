@@ -74,7 +74,7 @@ const Navbar = () => {
   return (
     <nav className='w-full max-w-7xl flex py-6 justify-between items-center navbar absolute'>
       <img src={logo} alt='hoobank' className='w-[124px] h-[20px]' />
-      <ul className='list-none sm:flex hidden justify-end items-center w-full'>
+      <ul className='list-none hidden lg:flex justify-end items-center w-full'>
         <HomeButton />
         {navLinks.map((nav, i) => (
           <li
@@ -90,7 +90,7 @@ const Navbar = () => {
         <Login />
         <Register />
       </ul>
-      <div className=" sm:hidden md:hidden flex flex-1 justify-end items-center">
+      <div className="lg:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt='menu'
