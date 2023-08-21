@@ -20,12 +20,12 @@ import Faq from './components/Faq'
 const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
-      </div>
-      <div className={`bg-primary ${styles.flexStart}`}>
+      </div> */}
+      <div className={`bg-primary ${styles.flexStart} lg:pt-0 pt-20`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -42,7 +42,7 @@ const App = () => {
           <Package />
           <Expert />
           <Faq />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </div>

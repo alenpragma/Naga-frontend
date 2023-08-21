@@ -31,10 +31,10 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
+  // {
+  //   id: "home",
+  //   title: "Home",
+  // },
   {
     id: "features",
     title: "Features",
@@ -177,20 +177,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/suggestions/",
       },
     ],
-  },
-  // {
-  //   title: "Address",
-  //   links: [
-  //     {
-  //       name: "Our Partner",
-  //       link: "https://www.hoobank.com/our-partner/",
-  //     },
-  //     {
-  //       name: "Become a Partner",
-  //       link: "https://www.hoobank.com/become-a-partner/",
-  //     },
-  //   ],
-  // },
+  }
 ];
 
 export const socialMedia = [
@@ -353,3 +340,37 @@ export const accordionData = [
       content: "NagaTrade has a partnership with a crypto company called CryptoAds Token (CADS)."
   },
 ];
+
+
+export const ourProjectData = [
+  {
+    id: "aboutUs_01",
+    title: "Naga Hospital",
+    description: "We have a project called Naga Hospital going on. We are building this hospital with world-class facilities."
+  },
+  {
+    id: "aboutUs_02",
+    title: "Naga Real Estate",
+    description: "We have Naga Real Estate Company. Our company provides good quality buildings with a beautiful environment to its customers."
+  },
+  {
+    id: "aboutUs_03",
+    title: "Naga Car Factory",
+    description: "We are also running a car factory. In the future, we will transform this factory into a more advanced car manufacturing plant."
+  },
+  {
+    id: "aboutUs_04",
+    title: "Naga Agricultural Farm",
+    description: "We have Naga Agriculture Farm. This farm consists of about 80 acres. On this agricultural farm, we work with advanced technology."
+  },
+  {
+    id: "aboutUs_05",
+    title: "Naga Crypto and Forex",
+    description: "You are familiar with our crypto and forex company. Currently, around 5 million people have invested in this company. We are always ready to increase your investment and give you a profitable amount of money."
+  },
+  {
+    id: "aboutUs_06",
+    title: "Naga Hotel and Restaurant",
+    description: "We also have world-class Five-Star hotel. It has all world-class facilities. Moreover, this hotel also has a world-class restaurant."
+  },
+]

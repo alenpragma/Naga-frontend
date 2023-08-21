@@ -54,6 +54,9 @@ import tokenEight from "./token/My-project-5.png"
 import tokenNine from "./token/My-project-7-150x150.png"
 import tokenTen from "./token/My-project.png"
 
+// about us image
+import aboutUs from "./trading.jpg"
+
 export {
   airbnb,
   bill,
@@ -106,5 +109,6 @@ export {
   tokenSeven,
   tokenEight,
   tokenNine,
-  tokenTen
+  tokenTen,
+  aboutUs
 };
