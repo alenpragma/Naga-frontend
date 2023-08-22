@@ -1,6 +1,7 @@
 import { aboutUs } from "../assets";
 import { features, ourProjectData } from "../constants";
 import styles from "../style";
+import { TiTick } from "react-icons/ti";
 
 
 const About = () => {
@@ -16,14 +17,14 @@ const About = () => {
                     <div>
                         <h2 className="font-semibold"> Nagatrade Upcoming Projects:</h2>
                         <ul>
-                            <li>1. Naga Hospital</li>
-                            <li>2. Naga Real Estate</li>
-                            <li>3. Naga Car Factory</li>
-                            <li>4. Naga Agricultural Farm</li>
-                            <li>5. Naga Crypto and Forex</li>
-                            <li>6. Naga Hotel and Restaurant</li>
-                            <li>7. Naga Technologies</li>
-                            <li> 8. Naga Trading (Export & Import)</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Hospital</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Real Estate</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Car Factory</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Agricultural Farm</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Crypto and Forex</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Hotel and Restaurant</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Technologies</li>
+                            <li className="flex items-center"><TiTick className="mr-3"/> Naga Trading (Export & Import)</li>
                         </ul>
                     </div>
                 </div>
@@ -47,7 +48,7 @@ const About = () => {
                     }
                 </div>
             </div>
-            <div>
+            <div className="mt-20">
                 <div className='flex-1 flex flex-col'>
                     <h2 className={styles.heading3}>Why Choose Us</h2>
                     <p className={`${styles.paragraph3} mt-5`}>
