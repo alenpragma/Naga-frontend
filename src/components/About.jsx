@@ -1,4 +1,4 @@
-import { aboutUs } from "../assets";
+import { crypto } from "../assets";
 import { features, ourProjectData } from "../constants";
 import Heading from "../shared/Heading";
 import styles from "../style";
@@ -9,11 +9,11 @@ const About = () => {
     return (
         <section className="text-white">
             <div>
-                <Heading heading="About Us" title="Nagatrade About Us"/>
+                <Heading heading="About Us" title="Nagatrade About Us" />
             </div>
             <div className="lg:flex justify-center items-center my-20 max-w-7xl mx-auto">
                 <div className="lg:w-1/2">
-                    <img className="w-full p-10" src={aboutUs} alt="" />
+                    <img className="w-full p-10" src={crypto} alt="" />
                 </div>
                 <div className="lg:w-1/2 space-y-5">
                     <h2 className="font-bold">About Us Title</h2>
@@ -36,18 +36,18 @@ const About = () => {
             <div className="max-w-7xl mx-auto">
                 <div className='flex-1 flex flex-col'>
                     <h2 className={styles.heading3}>Our Project</h2>
-                    <p className={`${styles.paragraph3} mt-5`}>
+                    <p className={`${styles.paragraph3} mt-5 mb-5`}>
                         Check On Our Project
                     </p>
                 </div>
-                <div className="grid lg:grid-cols-3 sm:grid-cols-2  gap-5">
+                <div className="grid lg:grid-cols-4 sm:grid-cols-3  gap-5">
                     {
-                        ourProjectData.map(data => <div className="bg-slate-200 rounded h-[500px] shadow-xl" key={data.id}>
+                        ourProjectData.map(data => <div className="bg-slate-200 rounded h-[400px] shadow-xl" key={data.id}>
                             <div className="flex justify-center items-center">
-                            <img className="w-full p-5" src={aboutUs} alt="" />
+                                <img className="w-full p-5" src={data.img} alt="" />
                             </div>
                             <div className="p-5">
-                                <h2 className="card-title text-black">{data.title}</h2>
+                                <h2 className="font-bold text-[18px] text-black">{data.title}</h2>
                                 <p className="text-black">{data.description}</p>
                             </div>
                         </div>)
@@ -74,10 +74,10 @@ const About = () => {
                                     <p className="">{data.content}</p>
                                 </div>
                                 <div className="absolute top-10 left-0 right-0 w-28 mx-auto">
-                                <img className="p-3 border-4 border-white rounded-full bg-white" src={data.icon} alt="" />
+                                    <img className="p-3 border-4 border-white rounded-full bg-white" src={data.icon} alt="" />
+                                </div>
                             </div>
-                            </div>
-                           
+
                         </div>)
                     }
                 </div>

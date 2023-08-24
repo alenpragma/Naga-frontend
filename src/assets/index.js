@@ -55,7 +55,14 @@ import tokenNine from "./token/My-project-7-150x150.png"
 import tokenTen from "./token/My-project.png"
 
 // about us image
-import aboutUs from "./trading.jpg"
+import agricultural from "./aboutus/Agricultural.jpg";
+import car_factory from "./aboutus/Car-Factory.jpg";
+import crypto from "./aboutus/Crypto.jpg";
+import hospital from "./aboutus/hospital.jpg";
+import hotel from "./aboutus/Hotel.jpg";
+import real_estate from "./aboutus/Real-Estate.jpg";
+import technology from "./aboutus/Technologie.jpg";
+import trading from "./aboutus/Trading.jpg";
 
 export {
   airbnb,
@@ -110,5 +117,12 @@ export {
   tokenEight,
   tokenNine,
   tokenTen,
-  aboutUs
+  agricultural, 
+  car_factory, 
+  crypto, 
+  hospital, 
+  hotel, 
+  real_estate,
+  technology,
+  trading
 };
