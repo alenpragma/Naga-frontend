@@ -1,4 +1,4 @@
-import { crypto } from "../assets";
+import { banner, crypto } from "../assets";
 import { features, ourProjectData } from "../constants";
 import Heading from "../shared/Heading";
 import styles from "../style";
@@ -11,9 +11,9 @@ const About = () => {
             <div>
                 <Heading heading="About Us" title="Nagatrade About Us" />
             </div>
-            <div className="lg:flex justify-center items-center my-20 max-w-7xl mx-auto">
+            <div className="lg:flex justify-center items-center my-20 max-w-7xl gap-10 mx-auto">
                 <div className="lg:w-1/2">
-                    <img className="w-full p-10" src={crypto} alt="" />
+                    <img className="w-full rounded" src={banner} alt="" />
                 </div>
                 <div className="lg:w-1/2 space-y-5">
                     <h2 className="font-bold">About Us Title</h2>
@@ -66,15 +66,15 @@ const About = () => {
                     {
                         features.map(data => <div className="rounded-md h-auto shadow-xl lg:mt-0 mt-5" key={data.id}>
                             <div className="relative">
-                                <div className="flex rounded-t-md justify-center items-center h-[100px] bg-[#643666]">
+                                <div className="flex rounded-t-md justify-center items-center h-[80px] bg-[#643666]">
 
                                 </div>
                                 <div className="card-body rounded-b-md h-[250px] bg-[#1E2038] py-20 text-center">
                                     <h2 className="text-[18px] font-bold">{data.title}</h2>
                                     <p className="">{data.content}</p>
                                 </div>
-                                <div className="absolute top-10 left-0 right-0 w-28 mx-auto">
-                                    <img className="p-3 border-4 border-white rounded-full bg-white" src={data.icon} alt="" />
+                                <div className="absolute top-5 left-0 right-0 w-28 mx-auto">
+                                    <img className="p-3 border-4 w-full border-white rounded-full bg-white" src={data.icon} alt="" />
                                 </div>
                             </div>
 

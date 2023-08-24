@@ -63,6 +63,7 @@ import hotel from "./aboutus/Hotel.jpg";
 import real_estate from "./aboutus/Real-Estate.jpg";
 import technology from "./aboutus/Technologie.jpg";
 import trading from "./aboutus/Trading.jpg";
+import banner from "./aboutus/untitled-3.jpg";
 
 export {
   airbnb,
@@ -124,5 +125,6 @@ export {
   hotel, 
   real_estate,
   technology,
-  trading
+  trading,
+  banner
 };
