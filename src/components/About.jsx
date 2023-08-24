@@ -9,17 +9,16 @@ const About = () => {
     return (
         <section className="text-white">
             <div>
-                <Heading heading="About Us" title="Nagatrade About Us" />
+                <Heading heading="About Us" title="Best Crypto and Forex Trading Platform" />
             </div>
             <div className="lg:flex justify-center items-center my-20 max-w-7xl gap-10 mx-auto">
                 <div className="lg:w-1/2">
                     <img className="w-full rounded" src={banner} alt="" />
                 </div>
                 <div className="lg:w-1/2 space-y-5">
-                    <h2 className="font-bold">About Us Title</h2>
                     <p>From technology to healthcare, Asia to Europe, NagaTrade empowers traders with real-time access to stocks from top exchanges worldwide.</p>
                     <div>
-                        <h2 className="font-semibold"> Nagatrade Upcoming Projects:</h2>
+                        <h2 className="font-semibold text-2xl"> Nagatrade Upcoming Projects:</h2>
                         <ul>
                             <li className="flex items-center"><TiTick className="mr-3" /> Naga Hospital</li>
                             <li className="flex items-center"><TiTick className="mr-3" /> Naga Real Estate</li>
