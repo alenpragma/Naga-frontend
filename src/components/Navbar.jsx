@@ -66,6 +66,7 @@ import HomeButton from '../shared/HomeButton'
 import AboutUsRoute from '../shared/AboutUsRoute'
 import Login from '../shared/Login'
 import Register from '../shared/Register'
+import ContactUs from '../shared/ContactUs'
 
 const Navbar = () => {
 
@@ -87,6 +88,7 @@ const Navbar = () => {
           </li>
         ))}
         <AboutUsRoute />
+        <ContactUs />
         <Login />
         <Register />
       </ul>
